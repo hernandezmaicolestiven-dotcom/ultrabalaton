@@ -1,0 +1,312 @@
+@font-face {
+        font-family: 'Poppins'; 
+        src: url('medios/fonts/Poppins.zip') format('truetype');
+        font-weight: bold; 
+        font-style: bold; 
+    }
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+.Menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.2);
+    transform: scaleX(-1);
+    margin-bottom: -90px;
+}
+
+.Menu a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.Menu__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    gap: 15px;
+}
+
+.Menu__img img{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    margin-left: 3px;
+}
+
+header{
+    height: 90vh;
+    background: url(img/image1.png) ;
+    background-size: cover;
+    background-position: center;
+    transform: scaleX(-1);
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
+}
+
+.banner{
+    text-align: center;
+    color: white;
+    height: 100%;
+    padding: 100px 20px;
+    transform: scaleX(-1);
+}
+
+.banner h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.banner button{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0057ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 90px;
+    border-radius: 20px;
+    width: 180px;
+}
+
+.section1{
+    padding: 50px 20px;
+    text-align: center;
+    color: #000c;
+}
+
+.section1 .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+}
+
+.section1 .button1{
+    margin: 5px;
+    padding: 56px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0057ff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 205px;
+}
+
+.section1 .button2{
+    margin: 5px;
+    padding: 45px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0057ff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 205px;
+}   
+
+.section1 .button3{
+    margin: 5px;
+    padding: 32px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0057ff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 205px;
+}
+
+.section1 p{
+    width: 43%;
+    margin: 0 auto;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+.section2{
+    text-align: center;
+    width: 100%;
+}
+
+.gallery{
+    padding: 30px;
+}   
+
+.gallery img{
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+.route {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 30px;
+}
+
+.route .izquierda img{
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.route .derecha{
+    justify-content: center;
+    align-items: center;
+}
+
+
+.terrain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.terrain .izquierda img{
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.terrain .derecha{
+    justify-content: start;
+    align-items: center;
+}
+
+.Day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.Day .izquierda img{
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Day .derecha{
+    justify-content: start;
+    align-items: center;
+}
+
+.Team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.Team .izquierda img{
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Team .derecha{
+    justify-content: start;
+    align-items: center;
+}
+
+
+.section4{
+    text-align: center;
+    background-color: #0003;
+    margin: auto;
+}
+
+.section4 h2{
+    padding: 15px;
+}
+
+.section4 .Sponsors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.Sponsors img{
+    margin: 10px;
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+
+}
+
+
+.formulario{
+    background-color: #0003;
+    margin: auto;
+    width: 50%;
+}
+
+input{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.formulario img{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #0057ff;
+    color: white;
+}
